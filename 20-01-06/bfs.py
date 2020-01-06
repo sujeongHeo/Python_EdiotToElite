@@ -31,15 +31,15 @@ class BinaryTree:
 
     def __init__(self, r):
         self.root = r
-        
-#     1. (초기화) traversal <- 빈 리스트,  q <- 빈 큐
-#     2. 빈 트리가 아니면, root node 를 q 에 추가 (enqueue)
-#     3. q 가 비어 있지 않은 동안 
-#     3-1 node <- q에서 원소를 추출 
-#     3-2  node 를 방문 
-#     3.3 node 의 왼쪽, 오른쪽 자식 (있으면) 들을 q 에 추가
-#     4.  q 가 빈 큐가 되면 모든 노드 방문 완료
-
+ '''
+    1. (초기화) traversal <- 빈 리스트,  q <- 빈 큐
+    2. 빈 트리가 아니면, root node 를 q 에 추가 (enqueue)
+    3. q 가 비어 있지 않은 동안 
+    3-1 node <- q에서 원소를 추출 
+    3-2  node 를 방문 
+    3.3 node 의 왼쪽, 오른쪽 자식 (있으면) 들을 q 에 추가
+    4.  q 가 빈 큐가 되면 모든 노드 방문 완료
+'''
     ####넓이 우선 순회 코드 과제  
     def bft(self):
         traversal = []  #1.
