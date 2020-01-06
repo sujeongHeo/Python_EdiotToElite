@@ -7,6 +7,6 @@
 I want to show you guys that "idiot" can do Python. 
 
 
-and I am going to upload easy or tough code snippets.
+and I am going to upload easy or tough things.
 
 (I'm not picky about difficulty)
