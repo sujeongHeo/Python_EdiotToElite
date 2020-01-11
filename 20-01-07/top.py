@@ -7,6 +7,16 @@ heights	return
 [3,9,9,3,5,7,2]	[0,0,0,3,3,3,6]
 [1,5,3,6,7,6,5]	[0,0,2,0,0,5,6]
 '''
+#20-01-12 더 좋은 코드라지만 이해 못했음...
+def solution(h):
+    ans = [0] * len(h)
+    for i in range(len(h)-1, 0, -1):
+        for j in range(i-1, -1, -1):
+            if h[i] < h[j]:
+                ans[i] = j+1
+                break
+    return ans
+
 # 4번째 작성 정확도 100
 def solution(heights):
     answer = []
