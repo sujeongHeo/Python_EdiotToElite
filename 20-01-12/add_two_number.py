@@ -19,7 +19,6 @@ class Solution(object):
 
 	def addTwoNumbers(self, l1, l2):
 		return map(int, str(self.to_num(l1) + self.to_num(l2))[::-1])
-        return map(int, str(self.to_num(l1) +self.to_num(l2))[::-1])
 
 #자바 
 public class ListNode{
